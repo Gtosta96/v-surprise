@@ -52,10 +52,9 @@ const Game: React.FC<IProps> = (props) => {
 
   return (
     <div className="game-container" ref={ref}>
-      qwe
       {img}
       <audio ref={refAudio}>
-        <source src="https://bp.imguol.com.br/sons/s16.wav" />
+        <source src="https://media.vocaroo.com/mp3/h5TW6zxFlWT" />
       </audio>
     </div>
   )
