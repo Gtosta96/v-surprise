@@ -10,7 +10,7 @@ import Coward from './pages/Coward';
 import './App.css';
 
 function App() {
-  const [step, setStep] = React.useState('4');
+  const [step, setStep] = React.useState('1');
 
   function onChange(nextStep: string) {
     console.log(nextStep);
